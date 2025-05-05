@@ -1,0 +1,21 @@
+/**
+ * Стили для компонента Message
+ */
+.message {
+  padding: 15px 20px;
+  margin: 10px 0;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  max-width: 80%;
+  word-wrap: break-word;
+  transition: all 0.3s ease;
+}
+
+.message:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
